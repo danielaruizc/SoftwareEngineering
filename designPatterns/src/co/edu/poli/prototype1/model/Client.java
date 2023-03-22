@@ -3,14 +3,14 @@ package co.edu.poli.prototype1.model;
 /**
  * Design Patterns: Basic Prototype
  * 
- * @author wsoto
- * @since 26.10.21
+ * @author daniela 
+ * @since 22.03.23
  */
 public class Client {
 
 	public static void main(String[] args) {
 
-		Book b = new Book("ABC111", "Gabriel García Marquéz", 2010, "Oveja Negra", "La Hojarasca", new int[120]);
+		Book b = new Book("ABC111", "Gabriel Garcï¿½a Marquï¿½z", 2010, "Oveja Negra", "La Hojarasca", new int[120]);
 		System.out.println(b);
 
 		Book cloneBook1 = (Book) b.cloneObj();
